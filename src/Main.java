@@ -10,7 +10,7 @@ public class Main {
             System.out.println(i);
         }
         double[] fraction = {1.57, 7.654, 9.986};
-        for (int x = 0; x < 3; x++) {
+        for (int x = 0; x < fraction.length; x++) {
             System.out.println(fraction[x]);
         }
         int[] box = new int[5];
